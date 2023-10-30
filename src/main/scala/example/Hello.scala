@@ -1,8 +1,8 @@
 package example
 
-object Hello {
+object Hello extends App with Test {
 
-  load(MyData())()
   load(MyData2())()
+  load(MyData())()
 
 }
