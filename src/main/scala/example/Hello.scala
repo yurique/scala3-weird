@@ -8,20 +8,13 @@ object Hello extends App {
     EventStream.fromValue(
       Left(MyError()): Either[MyError, MyData]
     )
-  )(
-    title = _.title
-  ) { data =>
-    div("empty")
-  }
+  )()
 
   load(
     EventStream.fromValue(
       Left(MyError()): Either[MyError, MyData2]
     )
   )(
-    title = _.title
-  ) { data =>
-    div("empty")
-  }
+  )
 
 }
