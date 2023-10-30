@@ -1,14 +1,13 @@
 package example
 
-object Hello extends App {
-
+object Hello {
 
   load(
-    Left[MyError, MyData](???)
+    MyData()
   )()
 
   load(
-    Left[MyError, MyData2](???)
+    MyData2()
   )()
 
 }
