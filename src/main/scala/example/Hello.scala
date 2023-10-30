@@ -2,12 +2,7 @@ package example
 
 object Hello {
 
-  load(
-    MyData()
-  )()
-
-  load(
-    MyData2()
-  )()
+  load(MyData())()
+  load(MyData2())()
 
 }
